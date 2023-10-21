@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/TrueCare.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/main.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>NorthTrueCare</title>
+</head>
+
+<body>
+  <header>
+    <div class="container"> 
+      <div class="header-top">
+        <span class="logo">NorthTrueCare</span>
+        <div class="menu"><i class="fa-solid fa-bars"></i></div>
+        <ul>
+          <li><a href="" onclick="return slowScroll('.features')">Services & Appointment</a></li>
+          <li><a href="" onclick="return slowScroll('.about-us')">About Us</a></li>
+          <li><a href="" onclick="return slowScroll('.reviews')">Reviews</a></li>
+          <li><a href="" onclick="return slowScroll('footer')">Contacts</a></li>
+        </ul>
+      </div>
+
+    <div class="mobile-menu">
+      <ul>
+        <li><a href="" onclick="return slowScroll('.features')">Services & Appointment</a></li>
+        <li><a href="" onclick="return slowScroll('.about-us')">About Us</a></li>
+        <li><a href="" onclick="return slowScroll('.reviews')">Reviews</a></li>
+        <li><a href="" onclick="return slowScroll('footer')">Contacts</a></li>
+      </ul>
+    </div>
+
+      <div class="header-main">
+        <div class="info">
+          <h1>We know how to make<br>people happy!</h1>
+          <p>We offer our services in the region of Alberta, catering to all your needs. <br>Our dedicated team is committed to providing top-notch solutions, ensuring your utmost satisfaction.</p>
+          <button type="button" class="appointment" onclick="return slowScroll('.features')">More information!</button>
+        </div>
+
+        <div class="image">
+          <img src="/img/worker.jpg" alt="Windows washing" width="380px" height="540px">
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F7760E" fill-opacity="1" d="M0,192L48,192C96,192,192,192,288,192C384,192,480,192,576,160C672,128,768,64,864,42.7C960,21,1056,43,1152,80C1248,117,1344,171,1392,197.3L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+
+  <section class="features">
+    <div class="container">
+      <div class="block">
+        <div class="shadow">
+          <img src="/img/windows.JPEG" alt="house care" width="370px" height="500px">
+        </div>
+        <div class="info">
+          <h2>Cleaning <span class="dot">.</span></h2>
+          <p>NorthTrueCare offers its professional cleaning services and extends a warm invitation for you to experience the difference.</p>
+          <ul>
+            <li>Bungalow, from 425$</li>
+            <li>Two storey full, from 675$</li>
+            <li>Three storey full, from 825$</li>
+            <li>Windows and doors bungalow, from 150$</li>
+            <li>Two storey windows and doors, from 220$</li>
+            <li>Three storey windows and doors, from 250$</li>
+            <li>Gutters small bungalow, from 100$</li>
+            <li>Gutters two storey, from 250$</li>
+            <li>Gutters three storey, from 300$</li>
+          </ul>
+          <button type="button" id="windowsBtn" class="appointmentWindows">Book an appointment!</button>
+          <div id="form" class="google_form">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfgFxvrwFSS7vmROqNYfmQ2r9wKgU-_ZFtlVBpRj9bBfwvvsA/viewform?embedded=true" width="500" height="1741" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="block">
+        <div class="info order-mobile">
+          <h2>Lawn care <span class="dot">.</span></h2>
+          <p>NorthTrueCare offers its specialized aeration services, inviting you to benefit from a healthier and more vibrant lawn.</p>
+          <ul>
+            <li>Aeration, from 40$</li>
+          </ul>
+          <button type="button" id="grassBtn" class="appointmentGrass">Book an appointment!</button>
+          <div id="form_grass" class="google_form">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfgFxvrwFSS7vmROqNYfmQ2r9wKgU-_ZFtlVBpRj9bBfwvvsA/viewform?embedded=true" width="500" height="1741" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          </div>
+        </div>
+        <div class="shadow">
+          <img src="/img/grass.JPEG" alt="grass care" width="370px" height="500px">
+        </div>
+      </div>
+
+      <div class="block">
+        <div class="shadow">
+          <img src="/img/snow.JPEG" alt="snow removal" width="370px" height="500px">
+        </div>
+        <div class="info">
+          <h2>Winter <span class="dot">.</span></h2>
+          <p>We provide efficient snow removal services and warmly invites you to enjoy a worry-free winter season.</p>
+          <ul>
+            <li>Snow removal, ask for quote $</li>
+          </ul>
+          <button type="button" id="appointmentBtn" class="appointmentSnow">Book an appointment!</button>
+          <div id="form_snow" class="google_form">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfgFxvrwFSS7vmROqNYfmQ2r9wKgU-_ZFtlVBpRj9bBfwvvsA/viewform?embedded=true" width="500" height="1741" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-us">
+    <div class="container">
+      <div class="about-text">
+        <h2>About Us<span class="dot">.</span></h2>
+        <p>NorthTrueCare is a dedicated service provider in the field of property maintenance, catering to an extensive range of needs.<br><br> Our skilled team specializes in a variety of services including Aeration, Bungalow care, comprehensive maintenance for Two and Three-story properties, as well as adept handling of windows and doors across different types of buildings.<br><br>We take pride in delivering top-notch solutions for gutter maintenance, ensuring effective care for small bungalows as well as two and three-story structures.<br><br>
+        Committed to excellence, we prioritize quality services, employing a trained staff equipped with the latest techniques and tools.<br> With an unwavering focus on customer satisfaction, NorthTrueCare guarantees reliable and efficient solutions for all your property care needs, including snow removal.</p><br>
+        <h2 class="about">Why we are the best <i class="fa-solid fa-arrow-down"></i></h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="information">
+    <div class="container flex">
+      <div>
+        <div class="block flex">
+          <div class="info">
+            <h4>Affordable Pricing</h4>
+            <p>Offering services with competitive prices, making it accessible to all.</p> <br>
+          </div>
+          <div>
+            <img src="\img\saving.png" alt="Saving" width="30px" height="30px">
+          </div>
+        </div>
+        <div class="block flex">
+          <div class="info">
+            <h4>Diverse Offerings</h4>
+            <p>Providing a range of services from basic bungalow packages to comprehensive three-story options, addressing the needs of customers with various property types.</p>
+          </div>
+          <div>
+            <img src="\img\to-do-list.png" alt="to-do-list" width="30px" height="30px">
+          </div>
+        </div>
+      </div>
+      <div class="image">
+        <img src="/img/iphone.png" alt="iphonevideo" width="350px" height="620px">
+        <div class="video-play">
+          <img src="/img/play-buttonR.png" alt="video" width="65px" height="65px">
+        </div>
+      </div>
+      <div>
+        <div class="block flex left-align">
+          <div>
+            <img src="\img\asterisk.png" alt="Asterisk" width="30px" height="30px">
+          </div>
+          <div class="info">
+            <h4>Attention to Detail</h4>
+            <p>Delivering meticulous services such as windows and doors cleaning, and gutter maintenance, ensuring thorough and precise workmanship.</p>
+          </div>
+        </div>
+        <div class="block flex left-align">
+          <div>
+            <img src="\img\honesty.png" alt="Asterisk" width="30px" height="30px">
+          </div>
+          <div class="info">
+            <h4>Customer-Centric Approach</h4>
+            <p>Offering personalized solutions for snow removal and other services, accommodating individual requirements and providing tailored quotes upon request.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="subs container">
+    <h4>Subscribe to our newsletter <span class="dot">.</span></h4>
+    <p class="info">Newsletter subscription for NorthTrueCare clients provides exclusive updates and offers.</p>
+    <form id="sub_form" onsubmit="submitForm(event)">
+        <input type="email" id="email" autocomplete="off" placeholder="Your email address">
+        <button type="submit" id="subscribe" value="Submit">Subscribe!</button>
+        <label for="email"></label> 
+    </form>
+  </section>
+
+
+  <div id="modal-video">
+    <div class="close-button"><i class="fa-regular fa-circle-xmark"></i></div>
+    <div class="video-modal">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Kh4aON3ADWU?si=XLapkO9SQywPUXdp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F7760E" fill-opacity="1" d="M0,192L48,192C96,192,192,192,288,192C384,192,480,192,576,160C672,128,768,64,864,42.7C960,21,1056,43,1152,80C1248,117,1344,171,1392,197.3L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+
+
+
+  <section class="reviews container">
+    <h3>What people think<span class="dot">.</span></h3>
+    <div class="flex">
+
+      <div>
+        <div class="review">
+          <p>Great work from NorthTrueCare! They managed the lawn aeration effectively and did an amazing job maintaining the gutters. The team was professional and knowledgeable, providing top-level service. Highly recommended!</p>
+          <span class="website">from Marketplace</span>
+        </div>
+        <div class="avtor">
+          <img src="/img/woman.png" alt="Autor of review" width="50px" height="50px">
+          <span class="name">
+            Anna Martin <br>
+            <span class="location">
+              Aleberta, Canada
+            </span>
+          </span>
+        </div>
+      </div>
+
+      <div>
+        <div class="review main">
+          <p>I was thoroughly impressed by the precise work done by NorthTrueCare on my three-story property. From managing the windows and doors to efficiently removing snow, they handled each task with care. Their expertise and attention to detail set them apart.</p>
+          <span class="website">from Kijiji</span>
+        </div>
+        <div class="avtor mainAvtor">
+          <img src="/img/human.png" alt="Autor of review" width="50px" height="50px">
+          <span class="name">
+            Emma Benett <br>
+            <span class="location">
+              Aleberta, Calgary
+            </span>
+          </span>
+        </div>
+      </div>
+
+      <div>
+        <div class="review">
+          <p>NorthTrueCare exceeded my expectations! Their aeration and gutter maintenance services were outstanding. The team's expertise and dedication to quality were evident in every aspect of their work. All tasks are completed quickly. I highly recommend their services.</p>
+          <span class="website">from Instagram</span>
+        </div>
+        <div class="avtor">
+          <img src="/img/man.png" alt="Autor of review" width="50px" height="50px">
+          <span class="name">
+            John Campbell <br>
+            <span class="location">
+              Aleberta, Canada
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F7760E" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+
+  <footer class="container">
+      <h2>More information about Us!</h2><br>
+      <h3>Our social media:</h3>
+      <div id="social-buttons">
+          <a href="https://m.facebook.com/groups/1037135780752205/?ref=share&mibextid=I6gGtw" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://instagram.com/northtruecare?igshid=MzRlODBiNWFlZA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UC0AC6K7LKTd6jpQz0JiYM1Q" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+      </div><br>
+      <p>Contact Us! <br> +1(437)677-3642 or email: northtruecareinc@gmail.com</p><br>
+      <p>© 2023 NorthTrueCare Inc | All rights reserved </p>
+      <a href="https://www.linkedin.com/in/vladyslav-lysykh-41b7b8241/">Carefully created by Vladyslav Lysykh</a>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+  <script src="/js/main-min.js"></script>
+</body>
+
+</html>
